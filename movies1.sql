@@ -1,3 +1,4 @@
+--sqlite
 --https://cs50.harvard.edu/x/2020/psets/7/movies/
 
 --write a SQL query to list the titles of all movies released in 2008.
