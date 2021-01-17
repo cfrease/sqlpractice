@@ -1,6 +1,6 @@
 https://mystery.knightlab.com/
 
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/awesome/Downloads/sql-murder-mystery.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="4281"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,18:maincrime_scene_report"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">--Crime Report
+--Crime Report
 SELECT description
 FROM crime_scene_report
 WHERE city = 'SQL City'
@@ -36,7 +36,7 @@ AND name LIKE 'Annabel%';
 --I saw the murder happen, and I recognized the killer from my gym when I was working out last week on January the 9th.
 
 
---Witness ID, Name,  and Statements
+--Witness ID, Name, and Statements
 WITH witness1 AS (
 SELECT id, name 
 FROM person
@@ -100,4 +100,4 @@ WHERE plate_number LIKE '%H42W%'
 
 
 
---67318	Jeremy Bowers</sql><current_tab id="0"/></tab_sql></sqlb_project>
+--67318	Jeremy Bowers
