@@ -1,6 +1,3 @@
-DROP TABLE artists
-TRUNCATE TABLE dimensions
-
 CREATE TABLE artists(
   ConstituentID TEXT NOT NULL PRIMARY KEY UNIQUE,	
   DisplayName TEXT,
