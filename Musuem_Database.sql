@@ -1,3 +1,5 @@
+--Database creation using the csv files from https://github.com/MuseumofModernArt/collection
+
 CREATE TABLE artists(
   ConstituentID TEXT NOT NULL PRIMARY KEY UNIQUE,	
   DisplayName TEXT,
